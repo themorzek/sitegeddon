@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>СОВА В ЕЛОВОМ ЛЕСУ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      position: relative;
+      min-height: 100vh;
+      font-family: 'Merriweather', serif;
+      color: #fff;
+      text-align: center;
+    }
+    body::before, body::after {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: -2;
+    }
+    body::before {
+      background-image: url('https://images.wallpaperscraft.com/image/single/spruce_forest_trees_170996_3840x2160.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      opacity: 1;
+    }
+    body::after {
+      background: rgba(0,0,0,0.58);
+      z-index: -1;
+    }
+    h1, h2, h3, p, .maintext {
+      /* Removed text stroke */
+      color: #fff;
+      font-family: 'Merriweather', serif;
+      margin-left: auto; margin-right: auto;
+    }
+    .nosmallstroke, .ticker-row, .sitelink {
+      -webkit-text-stroke: 0 !important;
+    }
+    .maintext {
+      font-size: 1.57em;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      display: block;
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin: 1.5em auto 1em auto;
+      border-radius: 0.75em;
+      max-width: 780px;
+      width: 98vw;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.42);
+      transition: transform 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+    .highlight-text {
+      color: #fff;
+      font-weight: bold;
+      background-color: rgba(255 255 255 / 0); /* Transparent background */
+      padding: 0.2em 0.5em;
+      border-radius: 0.25em;
+      display: inline-block;
+      margin-bottom: 1em;
+      font-size: 1.2em;
+    }
+    .link-text a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .ticker-row {
+      overflow: hidden;
+      width: 100vw;
+      background: rgba(0,0,0,0.06);
+      font-size: 1em;
+      font-family: 'Merriweather', serif;
+      text-transform: lowercase;
+      margin: 0;
+      padding: 0.13em 0;
+      border: none;
+      white-space: nowrap;
+      position: relative;
+      z-index: 2;
+      height: 1.7em;
+      text-align: left;
+    }
+    .ticker-inner {
+      display: inline-block;
+      white-space: nowrap;
+      animation: tickerLeft 13s linear infinite;
+    }
+    .ticker-row.ticker2 .ticker-inner { animation: tickerRight 16s linear infinite; }
+    @keyframes tickerLeft {
+      0% { transform: translateX(0);}
+      100% { transform: translateX(-50%);}
+    }
+    @keyframes tickerRight {
+      0% { transform: translateX(-50%);}
+      100% { transform: translateX(0);}
+    }
+    @media (max-width: 600px) {
+      .ticker-row { font-size: 0.75em;}
+      .maintext { font-size: 1.12em;}
+      img { max-width: 98vw;}
+    }
+    .sitelink { font-size:1em; font-weight: 700; display:inline-block; margin-top:0.7em; }
+  </style>
+</head>
+<body>
+  <!-- Top ticker rows -->
+  <div class="ticker-row">
+    <div class="ticker-inner">
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+    </div>
+  </div>
+  <div class="ticker-row ticker2">
+    <div class="ticker-inner">
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+    </div>
+  </div>
+  <div class="ticker-row">
+    <div class="ticker-inner">
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+    </div>
+  </div>
+
+  <h1>СОВА В ЕЛОВОМ ЛЕСУ</h1>
+  <h2>Добро пожаловать на информационный сайт о Еловом лесе и совах. Сделано Алексом.</h2>
+  <h2>О Еловом лесе:</h2>
+  
+  <p class="maintext">Еловый лес (ельник) — естественный или искусственно насаженный лес, в котором преобладающей породой является ель (Picea). Относится к вечнозелёным темнохвойным лесам.</p>
+  
+  <a class="sitelink" href="owl_enstatite.html">English version / Версия на английском</a>
+  <hr size="3" color="#ffffff">
+
+  <h2>Виды деревьев в еловых лесах или же Деревья, близкие по роду к Ели.</h2>
+
+  <h3>Ель</h3>
+  <div class="highlight-text">Ель — высокое вечнозеленое хвойное дерево из семейства сосновых, которое достигает высоты до 30-50 метров и может жить несколько сотен лет. Еловые леса — это преимущественно темнохвойные вечнозеленые леса, где ель является доминирующей породой. У ели пирамидальная густая крона, тонкая чешуйчатая кора и колючие игольчатые листья. Древесина ели светлая, мягкая, хорошо поддается обработке, обладает хорошими акустическими свойствами и используется в строительстве и промышленности. Ель предпочитает прохладный климат, теневынослива, но лучше растет на освещенных плодородных почвах. Она чувствительна к жаре и ветрам, но морозостойка и может расти сотни лет, формируя густые лесные массивы в северном полушарии. С точки зрения экологии, ель важна как среда обитания для многих видов животных и играет значительную роль в экосистемах таежных лесов.</div> <!-- description placeholder -->
+  <div class="link-text">Исследуйте этот тип дерева: <a href="https://www.youtube.com/watch?v=yn8RmdtABfE">Здесь</a></div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Picea_abies1.JPG/960px-Picea_abies1.JPG" alt="Ель" style="border: 2px dashed #fff;"> <!-- image placeholder -->
+
+  <div class="maintext">Секвойя</div>
+  <div class="highlight-text">Секвойя — это род хвойных деревьев семейства Кипарисовые, включающий самые высокие и самые массивные живые организмы на Земле. Естественный ареал их произрастания ограничен западными склонами гор Сьерра-Невада в Калифорнии, США.</div>
+  <div class="link-text">Исследуйте этот тип дерева: <a href="https://youtu.be/WWorX7kqC9g?si=acnr2Bm6HhykBFSm">Здесь</a></div>
+  <img src="https://avatars.mds.yandex.net/i?id=b18632941437fecd8a0ff9a321ba25bfbffb4940-10695547-images-thumbs&n=13" alt="Секвоя">
+
+  <div class="maintext">Пихта.</div>
+  <div class="highlight-text">Пихта (лат. Abies) — это род вечнозеленых хвойных деревьев семейства Сосновые, насчитывающий от 48 до 56 видов. Эти деревья широко распространены в Северном полушарии, преимущественно в горных регионах Европы, Азии и Северной Америки.</div>
+  <div class="link-text">Исследуйте этот тип дерева: <a href="https://youtu.be/iT8xfGFHt2M?si=HmOlRXxmVcaiBpeq">Здесь</a></div>
+  <img src="https://st.aestatic.net/items-img/R/E/A/3/Ubd5e5cf4798b458dae8ee1777c91c466s.jpg_960x960.jpg" alt="Пихта">
+
+  <div class="maintext">Сосна.</div>
+  <div class="highlight-text">Сосна (лат. Pínus) — обширный род вечнозеленых хвойных деревьев и кустарников семейства Сосновые (Pinaceae), насчитывающий около 120 видов. Это один из наиболее распространенных родов хвойных растений в Северном полушарии.</div>
+  <div class="link-text">Исследуйте этот тип дерева: <a href="https://youtu.be/n4ZKUoDRMkw?si=VV6XWqILn8BzoRM-">Здесь</a></div>
+  <img src="https://penza.pitomnik-rose.ru/image/data/parser2/sosna-chernaya-ot-150-sm.jpg" alt="Сосна">
+
+  <hr>
+
+  <h2>Животные еловых лесов</h2>
+
+  <div class="maintext">Белка</div>
+  <div class="highlight-text">Белка (лат. Sciurus) — род грызунов из семейства беличьих. В России наиболее распространена белка обыкновенная (или векша). Это проворный, древесный зверек, известный своим пушистым хвостом и запасливостью.</div>
+  <img src="https://avatars.mds.yandex.net/i?id=0648f99dfcae76010998b2ad7f848383_l-5276635-images-thumbs&n=13" alt="Белка">
+  <audio controls>
+    <source src="https://zvukipro.com/uploads/files/2020-04/1588141947_persian-squirrel-calls.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <div class="maintext">Лось</div>
+  <div class="highlight-text">Лось (лат. Alces alces), также известный как сохатый, является самым крупным представителем семейства оленьих (Cervidae). Это могучее животное широко распространено в лесной зоне Северного полушария.</div>
+  <img src="https://avatars.mds.yandex.net/i?id=86bc1ac44526c71fa93cc609f3f1f8b8_l-5323298-images-thumbs&n=13" alt="Лось">
+  <audio controls>
+    <source src="https://zvukipro.com/uploads/files/2017-08/1504022225_zvuki-losja.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <div class="maintext">Медведь</div>
+  <div class="highlight-text">Медведь — это общее название для млекопитающих из семейства медвежьих (Ursidae), которые относятся к отряду хищных. Они широко распространены в различных средах обитания по всему Северному полушарию. В России чаще всего встречается бурый медведь (Ursus arctos).</div>
+  <img src="https://images.firma-gamma.ru/images/2/a/d143138994534l.jpg" alt="Медведь">
+  <audio controls>
+    <source src="https://zvukipro.com/uploads/files/2018-10/1538581851_medved.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <div class="maintext">Волк</div>
+  <div class="highlight-text">Волк (лат. Canis lupus), или серый волк, — это хищное млекопитающее из семейства псовых, прямой предок домашней собаки. Волк является одним из самых распространенных наземных хищников в мире, обитающим в Европе, Азии и Северной Америке.</div>
+  <img src="https://i.pinimg.com/originals/7d/d5/e7/7dd5e78489eb94ac09acabc16d3b036c.jpg" alt="Волк">
+  <audio controls>
+    <source src="https://zvukipro.com/uploads/files/2020-05/1588835572_10aa9417540ea16.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <div class="maintext">Рысь</div>
+  <div class="highlight-text">Рысь (лат. Lynx) — это хищное млекопитающее из семейства кошачьих, отличающееся особым внешним видом и скрытным образом жизни. Обыкновенная рысь (Lynx lynx) является самым северным представителем семейства кошачьих.</div>
+  <img src="https://images.mir24.tv/Dx1sBqG7KyhGQuBxUqRBMn-ackoYTbmGP4NSHjvRbm8/q:95/w:865/h:500/c:1000:588:nowe:40:0/rt:fill-down/czM6Ly9taXIyNC10di9tZWRpYS9BcnRpY2xlL2ltYWdlLzU5MDkzM2VmLTJlOWQtNWRiMS04ODZhLTljZDU3OTRmNDgzZC9kYjVhOWQ3YTUxYzg3MWRlNDcyMTUyZGI4YTlhYjllOGJjZTcwYTE5YjY3ZWRmMzcwNDNkNjk0ZDk2MTFjMTcxLmpwZw.jpg" alt="Рысь">
+  <audio controls>
+    <source src="https://zvukipro.com/uploads/files/2019-02/1551343639_bobcat-sounds-ringtones-for-android-animal-ringtones.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <div class="maintext">Ёж</div>
+  <div class="highlight-text">Ёж (лат. Erinaceus) — это небольшое млекопитающее из отряда насекомоядных, широко известное благодаря своему уникальному колючему покрову. Наиболее распространенным видом в России является обыкновенный, или европейский, ёж (Erinaceus europaeus).</div>
+  <img src="https://avatars.mds.yandex.net/i?id=b95fa7012e5935cee83ef745889ae09f_l-9182408-images-thumbs&n=13" alt="Ёж">
+  <audio controls>
+    <source src="https://zvukipro.com/uploads/files/2018-10/1540376536_z_uki-z_erey-fyrchanie-ezhika.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <div class="maintext">Куница</div>
+  <div class="highlight-text">Куница (лат. Martes) — это род хищных млекопитающих из семейства куньих (Mustelidae). Это проворные и ловкие звери, известные своим ценным мехом и способностью быстро передвигаться как по земле, так и по деревьям.</div>
+  <img src="https://avatars.mds.yandex.net/i?id=e9bad523dab56b45f671b3b4dea5883e_l-4876323-images-thumbs&n=13" alt="Куница">
+  <audio controls>
+    <source src="https://zvukipro.com/uploads/files/2021-04/1619759859_pinemartencalls88206.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <hr>
+
+  <h2>Немного о совах</h2>
+  <img src="https://www.tursar.ru/image/img2321_0.jpg" alt="Сова">
+
+  <h3 class="maintext">Сова — хищная птица из отряда «Совообразные», включающего более 200 видов. Совы распространены по всему миру, кроме Антарктиды. Некоторые особенности:<br>
+    Большинство видов ведут ночной образ жизни.<br>
+    У сов большие круглые глаза, которые находятся спереди, а не по бокам.<br>
+    Зрачок сужается и расширяется в процессе дыхания и в зависимости от уровня освещения.<br>
+    Совы имеют очень тонкий слух.<br>
+    Крылья закруглённые по краям и изогнуты в сторону тела.<br>
+    Лапы почти полностью защищены перьями.<br>
+    Почти все виды сов имеют неяркую расцветку в серо-коричневых тонах.<br>
+    Совы в основном живут оседло и не любят долгих перелётов.<br>
+    Питаются в основном пищей животного происхождения.</h3>
+
+  <h2>Виды сов</h2>
+
+  <div class="maintext">Большая рогатая сова</div>
+  <div class="highlight-text">Большая рогатая сова — одна из крупнейших сов с ярко-желтыми глазами и длинными "рогами" — пучками перьев на голове. Обитает в Северной и Южной Америке, имеет мощные когти и сильный клюв для охоты.</div>
+  <img src="https://cs11.pikabu.ru/post_img/big/2018/12/17/8/1545053190196217342.png" alt="Тип совы 1" style="border: 2px dashed #fff;">
+  <audio controls>
+    <source src="https://zvukipro.com/uploads/files/2020-11/1604295789_owl_great_horned.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <div class="maintext">Ястребиная сова</div>
+  <div class="highlight-text">Ястребиная сова — распространена в Евразии и Северной Америке. Отличается буро-коричневой окраской с белыми пятнами, длинным хвостом и желтыми глазами. Предпочитает лесные территории и охотится преимущественно в сумерках.</div>
+  <img src="https://static.tildacdn.com/tild6331-3235-4064-a433-636533323135/_.jpg" alt="Тип совы 2" style="border: 2px dashed #fff;">
+  <audio controls>
+    <source src="https://mp3hunter.ru/wp-content/uploads/2019/10/yastrebinaya-sova-golos-2.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <div class="maintext">Сплюшка необыкновенная</div>
+  <div class="highlight-text">Сплюшка необыкновенная — сравнительно небольшой вид совы, обитающий в лесах Евразии. Отличается характерным криком и способностью маскироваться среди листвы благодаря рваному узору оперения. Этот вид менее известен широкой публике, но играет важную роль в экосистемах как ночной хищник мелких грызунов.﻿</div>
+  <img src="https://www.egir.ru/images/species/159.jpg" alt="Тип совы 3" style="border: 2px dashed #fff;">
+  <audio controls>
+    <source src="https://mp3hunter.ru/wp-content/uploads/2019/10/splyushka-golos-2.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудиоэлемент.
+  </audio>
+
+  <h2>Контакты</h2>
+  <p class="maintext">
+    Почтовый ящик:
+    <a href="mailto:kotrystallix@gmail.com">Клик</a>
+  </p>
+  <br>
+  <font size="2" color="#ffffff" class="nosmallstroke">
+    &copy; 2025 Сделано в HTML - демо версия - информация не финальная/не полная.
+  </font>
+
+  <!-- Bottom ticker rows -->
+  <div class="ticker-row">
+    <div class="ticker-inner">
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+    </div>
+  </div>
+  <div class="ticker-row ticker2">
+    <div class="ticker-inner">
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+    </div>
+  </div>
+  <div class="ticker-row">
+    <div class="ticker-inner">
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+      <span>welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome welcome </span>
+    </div>
+  </div>
+</body>
+</html>
+
+
